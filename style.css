@@ -4,6 +4,9 @@ body,p,span{
 h1,h2,h3,h4,h5,h6,a{
     font-family: 'Rubik', sans-serif;
 }
+img{
+    max-width: 100%;
+}
 
 /*  Begain Custom Style  */
 .main-header .container-fluid,
@@ -163,4 +166,74 @@ ul.our-primary-menu li ul li a{}
     padding: 0 14px;
     color: #111;
     font-size: 19px;
+}
+
+/*  Begain part 2 css  */
+.logo-secton {
+    border-bottom: 1px solid #ddd;
+}
+.client-logo{}
+.client-logo ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/*  About Section  */
+.about-image{
+    position: relative;
+}
+.about-img-text {
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+	background: url(img/shape.png);
+	height: 200px;
+	width: 200px;
+	background-size: contain;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img-text h2{}
+.about-img-text p{}
+
+
+.about-text{}
+.finix-text h6 {
+    color: #e63b3d;
+    font-weight: 400;
+}
+.finix-text h2 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.finix-text p {
+    color: #606060;
+    font-size: 18px;
+}
+.finix-text strong {
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+.finix-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.finix-text ul li {
+    padding: 5px 0;
+}
+.finix-text ul li::before {
+	content: "\f00c";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	color: #e63b3d;
+	display: inline-block;
+	margin-right: 10px;
 }
