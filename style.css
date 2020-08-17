@@ -336,3 +336,80 @@ ul.our-primary-menu li ul li a{}
         opacity: 0;
     }
 }
+
+/*  Applay Now Section  */
+/*  Part 4, Class  */
+.applay-now-section{}
+.applay-now-left-test{
+    margin-top: 60px;
+}
+
+
+.step-timeline{}
+.step-timeline ul {
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+.step-timeline ul::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 1px;
+    background: #e73a3e;
+    height: calc(100% - 100px);
+}
+.step-timeline ul li {
+    margin-bottom: 25px;
+    position: relative;
+}
+.step-timeline ul li::before {
+	content: attr(data-counter);
+	position: absolute;
+	left: -65px;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background: #f9fafb;
+	border: 1px solid #e73a3e;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+}
+.step-timeline ul li strong {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+.step-timeline ul li p {
+    color: #606060;
+}
+
+.calculate-rate{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+.calculate-rate .finix-text{}
+.calculate-rate .finix-text h6{
+    color: #606060;
+}
+
+
+.calculate-from .form-group {
+    margin-bottom: 20px;
+}
+.calculate-from .form-group input {
+    border: none;
+    border-radius: 0;
+    padding: 14px 15px;
+}
+.calculate-from .form-group select{
+    border: none;
+    border-radius: 0;
+    height: 53px;
+}
+.calculate-from .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
