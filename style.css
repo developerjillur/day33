@@ -413,3 +413,206 @@ ul.our-primary-menu li ul li a{}
     display: block;
     margin-bottom: 10px;
 }
+
+/*  Class day 33, Part 5  */
+.call-to-action-bg{
+    background-color: #e73a3e;
+}
+.call-to-action-bg h2 {
+    font-size: 40px;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+}
+.call-to-action-bg {
+    background-color: #e73a3e;
+    padding: 60px;
+        padding-bottom: 60px;
+    color: #fff;
+    padding-bottom: 40px;
+    border-radius: 6px;
+}
+.call-to-action-phone{}
+.call-to-action-phone span {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	color: #e73a3e;
+	font-size: 32px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	margin-right: 30px;
+}
+.call-to-action-phone a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 43px;
+}
+.call-to-action-phone {
+    margin-top: 18px;
+}
+
+
+/*  Our Comapny Values Section  */
+.company-values-text{}
+.values-item {
+    margin-bottom: 10px;
+}
+.values-item .value-icon {
+    font-size: 39px;
+    color: #e73a3e;
+    margin-right: 30px;
+}
+.value-texts{}
+.value-texts h3{}
+.value-texts p{
+    color: #606060;
+}
+.our-company-img {
+    text-align: right;
+    margin-top: 35px;
+}
+
+/*  Day 6, Serivces CSS  */
+.services-tab-item {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 40px !important;
+}
+.services-tab-item li{
+    flex: 1 1 auto;
+}
+.services-tab-item li a.active span i {
+    color: red;
+}
+.services-tab-item li a.active{
+    position: relative;
+}
+.services-tab-item li a.active::after{
+
+}
+.services-tab-item li a span i {
+    background: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+    color: #666;
+}
+.services-tab-item li a strong {
+    color: #222;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.serives-tab-content-text{}
+.serives-tab-content-text ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.serives-tab-content-text ul li::before {
+
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 12px;
+
+}
+
+/*  part 7  */
+.tesntimonial-section{}
+.testimonial-content{}
+.testimonial-content p {
+    font-size: 23px;
+}
+.client-details{}
+.client-details h5 {
+    color: #e73a3e;
+    margin-bottom: 0;
+}
+.client-details p{}
+
+.testimonial-iamge{}
+.testimonial-iamge img{}
+
+
+/*  Team mberber section  */
+.team-member{}
+.member-image{
+    position: relative;
+}
+.member-image img{
+    width: 100%;
+    height: auto;
+}
+.member-social-profile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.member-social-profile ul {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.member-social-profile ul li{
+    display: inline-block;
+
+    transition: .5s ease-in-out;
+    transform: translateY(45px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-image:hover .member-social-profile ul li{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.member-image .member-social-profile ul li:nth-child(1){
+    transition-delay: .2s;
+}
+.member-image .member-social-profile ul li:nth-child(2){
+    transition-delay: .3s;
+}
+.member-image .member-social-profile ul li:nth-child(3){
+    transition-delay: .4s;
+}
+.member-image .member-social-profile ul li:nth-child(4){
+    transition-delay: .5s;
+}
+.member-social-profile ul li a {
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	border-radius: 50%;
+    line-height: 40px;
+    color: #444;
+    transition: .4s;
+}
+.member-social-profile ul li a:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.member-content {
+    margin-top: 28px;
+}
+.member-content h4 {
+    color: #e73a3e;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.member-content p {
+    color: #666;
+}
